@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage.jsx'
 import KanjisPage from './pages/KanjisPage.jsx'
 import HiraganaPage from './pages/HiraganaPage.jsx'
 import KatakanaPage from './pages/KatakanaPage.jsx'
+import TemarioPage  from './pages/TemarioPage.jsx'
 import GramaticaPage from './pages/GramaticaPage.jsx'
 import RecursosPage from './pages/RecursosPage.jsx'
 import VocabularioPage from './pages/VocabularioPage.jsx'
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/hiragana"     element={<HiraganaPage />}   />
           <Route path="/katakana"     element={<KatakanaPage />}   />
           <Route path="/kanjis"       element={<KanjisPage />}     />
+          <Route path="/temario"      element={<TemarioPage />}    />
           <Route path="/gramatica"    element={<GramaticaPage />}  />
           <Route path="/vocabulario"  element={<VocabularioPage />}/>
           <Route path="/recursos"     element={<RecursosPage />}   />
