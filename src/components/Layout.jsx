@@ -7,6 +7,7 @@ const NAV_ITEMS = [
   { to: '/hiragana', label: 'Hiragana' },
   { to: '/katakana', label: 'Katakana' },
   { to: '/kanjis', label: 'Kanjis' },
+  { to: '/temario', label: 'Temario' },
   { to: '/gramatica', label: 'Gramática' },
   { to: '/vocabulario', label: 'Vocabulario' },
   { to: '/juegos', label: 'Juegos' },
